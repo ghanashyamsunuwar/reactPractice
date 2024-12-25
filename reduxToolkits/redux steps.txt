@@ -1,0 +1,23 @@
+first create folde 
+src/
+├── assets/
+│   └── images/
+├── components/           # Reusable presentational components
+│   ├── atoms/            # Smallest components (e.g., buttons, input fields)
+│   ├── molecules/        # Combinations of atoms (e.g., form fields)
+│   └── organisms/        # Larger components made up of atoms and molecules (e.g., forms, headers)
+├── features/             # Feature-specific state and logic
+│   └── counter/
+│       ├── components/   # Feature-specific components
+│       │   └── Counter.js
+│       ├── counterSlice.js
+│       ├── counterActions.js
+│       └── counterSelectors.js
+├── store/                # Redux store and middleware
+│   └── store.js
+├── hooks/                # Custom hooks for reusable logic
+│   └── useCounter.js
+├── App.js                # Main app component
+└── index.js     
+
+step 2 
