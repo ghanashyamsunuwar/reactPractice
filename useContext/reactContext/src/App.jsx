@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div style={{backgroundColor: 'red', display:'flex', borderColor:'white'}}>
+      <div style={{backgroundColor: 'green', display:'flex', borderColor:'white'}}>
         {count}
       </div>
       <counterContext.Provider value={{count, setCount}}>
